@@ -15,7 +15,7 @@ from shapely.ops import nearest_points
 GAP = 0.001
 
 TESTDIRECTORY = "./data"
-TESTFILE_IN = "donut_meshzone.shp"
+TESTFILE_IN = "donuts_in.shp"
 TESTFILE_OUT = "donuts_out.shp"
 TESTFILE_POINTS = "donuts_points.shp"
 TESTFILE_LINES = "donuts_lines.shp"
