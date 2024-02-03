@@ -12,7 +12,7 @@ from shapely.ops import nearest_points
 
 # SETTINGS ########################################################################
 
-GAP = 0.001
+GAP = 1000
 
 TESTDIRECTORY = "./data"
 TESTFILE_IN = "donuts_in.shp"
