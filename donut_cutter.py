@@ -17,13 +17,9 @@ GAP = 0.001
 TESTDIRECTORY = "./data"
 TESTFILE_IN = "donuts_in.shp"
 TESTFILE_OUT = "donuts_out.shp"
-TESTFILE_POINTS = "donuts_points.shp"
-TESTFILE_LINES = "donuts_lines.shp"
 
 TEST_IN = Path(TESTDIRECTORY)/TESTFILE_IN
 TEST_OUT = Path(TESTDIRECTORY)/TESTFILE_OUT
-TEST_POINTS = Path(TESTDIRECTORY)/TESTFILE_POINTS
-TEST_LINES = Path(TESTDIRECTORY)/TESTFILE_LINES
 
 
 # FUNCTIONS #######################################################################
