@@ -97,7 +97,7 @@ def cut(exterior,interior):
 				new.append(exterior.coords[index_ext:])	
 		else:
 			leg2 = shapely.LineString([nearest_ext,exterior.coords[index_ext-1]])
-			pnt2 = sg.Point(new_ext).buffer(GAP/3)
+			pnt2 = sg.Point(new_ext).buffer(GAP/10)
 			if shapely.intersection(pnt2,leg2):
 				if index_ext!=0:
 					new.append(exterior.coords[:index_ext])
